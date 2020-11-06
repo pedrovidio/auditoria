@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Auditoria extends CI_Controller {
+class NewAudit extends CI_Controller {
 
 	public function __construct()
 	{
@@ -10,7 +10,7 @@ class Auditoria extends CI_Controller {
 		$this->load->helper('api/post_helper');
 	}
 
-	public function new()
+	public function index()
 	{
 		$cle = $this->uri->segment(3);
 		$bearerToken = authenticate();
