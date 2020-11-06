@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "newAudit";
+$route['default_controller'] = "prepare";
 $route['404_override'] = 'home/erro_404';
 
 
