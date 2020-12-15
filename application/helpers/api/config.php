@@ -6,7 +6,7 @@
 // $dataURL = 'https://admsnw2.sphinxnaweb.com/sphinxapi/api/v4.0/survey/';
 
 $username = 'projetos';
-$secretToken = '2a105408bc326295ffe134b4859f441ab12ed92c46cde0687a22bc4a913b1c42';
+$secretToken = 'd7a4e0a013446e0eeb8dc0a725540e15b10c24e68019c9e416081f74a0ceb0aa';
 
 $authURL = 'https://www.sphinxnaweb.com/sphinxauth/connect/token';
 $dataURL = 'https://www.sphinxnaweb.com/sphinxapi/api/v4.0/survey/';
